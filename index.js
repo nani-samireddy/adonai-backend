@@ -21,6 +21,10 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Origin",
     "https://adonai-backend.vercel.app"
   );
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://adonai-api.onrender.com/"
+  );
 
   res.setHeader(
     "Access-Control-Allow-Methods",
